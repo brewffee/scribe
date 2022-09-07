@@ -1,0 +1,30 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "qapplication": "cpp",
+        "qhboxlayout": "cpp",
+        "qkeyevent": "cpp",
+        "qlabel": "cpp",
+        "qmainwindow": "cpp",
+        "qpushbutton": "cpp",
+        "qstatusbar": "cpp",
+        "qtextblock": "cpp",
+        "qtextedit": "cpp",
+        "qtimer": "cpp",
+        "qwidget": "cpp",
+        "qwindow": "cpp",
+        "qshortcut": "cpp",
+        "qlineedit": "cpp",
+        "qfont": "cpp",
+        "qcheckbox": "cpp",
+        "qscrollbar": "cpp",
+        "string": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/run/media/geixcowo/Storage/db/os/scribe",
+            "binaryPath": "/run/media/geixcowo/Storage/db/os/scribe/BasicNotepad",
+            "binaryArgs": []
+        }
+    ]
+}

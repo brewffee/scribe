@@ -1,0 +1,1463 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun 23 14:59:20 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 29)
+INSTALL_PROGRAM = install -m 755 -p
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 44)
+AR = gcc-ar cqs
+# makefile (from 'Makefile', line 58)
+DIST = /usr/lib/qt/mkspecs/features/spec_pre.prf /usr/lib/qt/mkspecs/common/unix.conf /usr/lib/qt/mkspecs/common/linux.conf /usr/lib/qt/mkspecs/common/sanitize.conf /usr/lib/qt/mkspecs/common/gcc-base.conf /usr/lib/qt/mkspecs/common/gcc-base-unix.conf /usr/lib/qt/mkspecs/common/g++-base.conf /usr/lib/qt/mkspecs/common/g++-unix.conf /usr/lib/qt/mkspecs/qconfig.pri /usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri /usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri /usr/lib/qt/mkspecs/modules/qt_lib_concurrent_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_core.pri /usr/lib/qt/mkspecs/modules/qt_lib_core_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_dbus.pri /usr/lib/qt/mkspecs/modules/qt_lib_dbus_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_designer.pri /usr/lib/qt/mkspecs/modules/qt_lib_designer_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_designercomponents_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_edid_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_egl_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_fb_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_glx_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_gui.pri /usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_help.pri /usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_location.pri /usr/lib/qt/mkspecs/modules/qt_lib_location_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_network.pri /usr/lib/qt/mkspecs/modules/qt_lib_network_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_opengl.pri /usr/lib/qt/mkspecs/modules/qt_lib_opengl_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_openglextensions.pri /usr/lib/qt/mkspecs/modules/qt_lib_openglextensions_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_packetprotocol_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioning.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioning_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioningquick.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioningquick_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_printsupport.pri /usr/lib/qt/mkspecs/modules/qt_lib_printsupport_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qml.pri /usr/lib/qt/mkspecs/modules/qt_lib_qml_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmldebug_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmldevtools_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlmodels.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlmodels_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmltest.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmltest_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlworkerscript.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quick.pri /usr/lib/qt/mkspecs/modules/qt_lib_quick_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickparticles_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickshapes_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2.pri /usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_script.pri /usr/lib/qt/mkspecs/modules/qt_lib_script_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_scripttools.pri /usr/lib/qt/mkspecs/modules/qt_lib_scripttools_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_sensors.pri /usr/lib/qt/mkspecs/modules/qt_lib_sensors_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_service_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_sql.pri /usr/lib/qt/mkspecs/modules/qt_lib_sql_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_svg.pri /usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri /usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri /usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri /usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandclient.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandclient_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandcompositor.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandcompositor_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri /usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkit.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkit_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_widgets.pri /usr/lib/qt/mkspecs/modules/qt_lib_widgets_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_x11extras.pri /usr/lib/qt/mkspecs/modules/qt_lib_x11extras_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_xml.pri /usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri /usr/lib/qt/mkspecs/features/qt_functions.prf /usr/lib/qt/mkspecs/features/qt_config.prf /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspecs/features/spec_post.prf .qmake.stash /usr/lib/qt/mkspecs/features/exclusive_builds.prf /usr/lib/qt/mkspecs/features/toolchain.prf /usr/lib/qt/mkspecs/features/default_pre.prf /usr/lib/qt/mkspecs/features/resolve_config.prf /usr/lib/qt/mkspecs/features/default_post.prf /usr/lib/qt/mkspecs/features/link_ltcg.prf /usr/lib/qt/mkspecs/features/ltcg.prf /usr/lib/qt/mkspecs/features/warn_on.prf /usr/lib/qt/mkspecs/features/qt.prf /usr/lib/qt/mkspecs/features/resources_functions.prf /usr/lib/qt/mkspecs/features/resources.prf /usr/lib/qt/mkspecs/features/moc.prf /usr/lib/qt/mkspecs/features/unix/opengl.prf /usr/lib/qt/mkspecs/features/uic.prf /usr/lib/qt/mkspecs/features/unix/thread.prf /usr/lib/qt/mkspecs/features/qmake_use.prf /usr/lib/qt/mkspecs/features/file_copies.prf /usr/lib/qt/mkspecs/features/testcase_targets.prf /usr/lib/qt/mkspecs/features/exceptions.prf /usr/lib/qt/mkspecs/features/yacc.prf /usr/lib/qt/mkspecs/features/lex.prf scribe.pro menus.h FAKEMODAL.H BasicNotepad.cpp
+# makefile (from 'Makefile', line 32)
+QINSTALL_PROGRAM = /usr/bin/qmake -install qinstall -exe
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# makefile (from 'Makefile', line 41)
+LINK = g++
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f0df8be9-80ef-4745-bb19-aeb5a30def4c.sock
+# environment
+VSCODE_CWD = /home/geixcowo
+# environment
+WINDOWPATH = 2
+# makefile (from 'Makefile', line 43)
+LIBS = $(SUBLIBS) /usr/lib/libQt5Widgets.so /usr/lib/libQt5Gui.so /usr/lib/libQt5Core.so -lGL -lpthread   
+# makefile (from 'Makefile', line 33)
+DEL_FILE = rm -f
+# environment
+VDPAU_DRIVER = nvidia
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 11)
+EQ = =
+# environment
+PWD = /run/media/geixcowo/Storage/db/os/scribe
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/geixcowo
+# environment
+XDG_DATA_DIRS = /home/geixcowo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 51)
+OBJECTS_DIR = ./
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/geixcowo/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 39)
+DISTNAME = BasicNotepad1.0.0
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 37)
+TAR = tar -cf
+# makefile (from 'Makefile', line 40)
+DISTDIR = /run/media/geixcowo/Storage/db/os/scribe/.tmp/BasicNotepad1.0.0
+# makefile
+CURDIR := /run/media/geixcowo/Storage/db/os/scribe
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 21)
+QMAKE = /usr/bin/qmake
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 46)
+SED = sed
+# makefile (from 'Makefile', line 31)
+QINSTALL = /usr/bin/qmake -install qinstall
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 14948
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 45)
+RANLIB = 
+# makefile (from 'Makefile', line 196)
+DESTDIR = 
+# environment
+VCPKG_ROOT = /opt/vcpkg
+# environment
+SESSION_MANAGER = local/arch:@/tmp/.ICE-unix/1246,unix/arch:/tmp/.ICE-unix/1246
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 38)
+COMPRESS = gzip -9f
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 27)
+COPY_DIR = cp -f -R
+# makefile (from 'Makefile', line 30)
+INSTALL_DIR = cp -f -R
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 23)
+CHK_DIR_EXISTS = test -d
+# default
+MAKECMDGOALS := all
+# environment
+DOTNET_BUNDLE_EXTRACT_BASE_DIR = /home/geixcowo/.cache/dotnet_bundle_extract
+# makefile (from 'Makefile', line 17)
+DEFINES = -DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 24)
+MKDIR = mkdir -p
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/home/geixcowo/.dotnet/tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+HAXE_STD_PATH = /usr/share/haxe/std
+# environment
+INVOCATION_ID = b918e98e2c294076ae16ede5af0ae2ee
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = geixcowo
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 26)
+COPY_FILE = cp -f
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+VCPKG_DOWNLOADS = /var/cache/vcpkg
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# makefile (from 'Makefile', line 35)
+DEL_DIR = rmdir
+# makefile (from 'Makefile', line 56)
+OBJECTS = BasicNotepad.o moc_FAKEMODAL.o
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = geixcowo
+# environment
+LIBVA_DRIVER_NAME = vdpau
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/visual-studio-code.desktop
+# makefile
+.DEFAULT_GOAL := first
+# makefile (from 'Makefile', line 28)
+INSTALL_FILE = install -m 644 -p
+# environment
+SYSTEMD_EXEC_PID = 1263
+# makefile (from 'Makefile', line 34)
+SYMLINK = ln -f -s
+# environment
+DISPLAY = :1
+# environment
+USER = geixcowo
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 195)
+QMAKE_TARGET = BasicNotepad
+# makefile (from 'Makefile', line 25)
+COPY = cp -f
+# makefile (from 'Makefile', line 20)
+INCPATH = -I. -I. -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I. -I/usr/lib/qt/mkspecs/linux-g++
+# environment
+MANAGERPID = 1172
+# environment
+DEBUGINFOD_URLS = https://debuginfod.archlinux.org 
+# makefile (from 'Makefile', line 9)
+MAKEFILE = Makefile
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 14931
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 18)
+CFLAGS = -pipe -O2 -flto -fno-fat-lto-objects -Wall -Wextra -D_REENTRANT -fPIC $(DEFINES)
+# environment
+JOURNAL_STREAM = 8:30991
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/geixcowo
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-214d72c4-1.67.2-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 197)
+TARGET = BasicNotepad
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 36)
+MOVE = mv -f
+# makefile (from 'Makefile', line 19)
+CXXFLAGS = -pipe -O2 -flto -fno-fat-lto-objects -Wall -Wextra -D_REENTRANT -fPIC $(DEFINES)
+# makefile (from 'Makefile', line 47)
+STRIP = strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 16)
+CXX = g++
+# makefile (from 'Makefile', line 15)
+CC = gcc
+# makefile (from 'Makefile', line 42)
+LFLAGS = -Wl,-O1 -pipe -O2 -flto=12 -fno-fat-lto-objects -fuse-linker-plugin -fPIC
+# makefile (from 'Makefile', line 55)
+SOURCES = BasicNotepad.cpp moc_FAKEMODAL.cpp
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DOTNET_ROOT = /usr/share/dotnet
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=141/1024=14%, Rehash=0, Collisions=12/180=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+ 
+
+# Directories
+
+# . (device 2050, inode 54876): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+mocables: compiler_moc_header_make_all compiler_moc_objc_header_make_all compiler_moc_source_make_all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quick.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+dist: distdir FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 488):
+	(cd `dirname $(DISTDIR)` && $(TAR) $(DISTNAME).tar $(DISTNAME) && $(COMPRESS) $(DISTNAME).tar) && $(MOVE) `dirname $(DISTDIR)`/$(DISTNAME).tar.gz . && $(DEL_FILE) -r $(DISTDIR)
+
+/usr/lib/qt/mkspecs/modules/qt_lib_webkit.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 10:08:37
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/default_pre.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_designer.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+FORCE:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check: first
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+distclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 504):
+	-$(DEL_FILE) $(TARGET) 
+	-$(DEL_FILE) .qmake.stash
+	-$(DEL_FILE) Makefile
+
+/usr/lib/qt/mkspecs/modules/qt_lib_xkbcommon_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_positioningquick.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 04:21:23
+#  File has been updated.
+#  Successfully updated.
+
+moc_predefs.h: /usr/lib/qt/mkspecs/features/data/dummy.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 525):
+	g++ -pipe -O2 -flto -fno-fat-lto-objects -Wall -Wextra -dM -E -o moc_predefs.h /usr/lib/qt/mkspecs/features/data/dummy.cpp
+
+/usr/lib/qt/mkspecs/modules/qt_lib_widgets.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+mocclean: compiler_moc_header_clean compiler_moc_objc_header_clean compiler_moc_source_clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+QImports.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 04:22:12.440502
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/yacc.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 10:08:37
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/common/gcc-base.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:24:25
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_designercomponents_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmldevtools_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/toolchain.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_yacc_decl_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/features/link_ltcg.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_location.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 04:21:23
+#  File has been updated.
+#  Successfully updated.
+
+compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmltest.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/ltcg.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+benchmark: first
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_platformcompositor_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_help.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 04:43:07
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/qt_functions.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_egl_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/common/gcc-base-unix.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+Makefile: scribe.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspecs/features/spec_pre.prf /usr/lib/qt/mkspecs/common/unix.conf /usr/lib/qt/mkspecs/common/linux.conf /usr/lib/qt/mkspecs/common/sanitize.conf /usr/lib/qt/mkspecs/common/gcc-base.conf /usr/lib/qt/mkspecs/common/gcc-base-unix.conf /usr/lib/qt/mkspecs/common/g++-base.conf /usr/lib/qt/mkspecs/common/g++-unix.conf /usr/lib/qt/mkspecs/qconfig.pri /usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri /usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri /usr/lib/qt/mkspecs/modules/qt_lib_concurrent_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_core.pri /usr/lib/qt/mkspecs/modules/qt_lib_core_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_dbus.pri /usr/lib/qt/mkspecs/modules/qt_lib_dbus_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_designer.pri /usr/lib/qt/mkspecs/modules/qt_lib_designer_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_designercomponents_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_edid_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_egl_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_fb_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_glx_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_gui.pri /usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_help.pri /usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_location.pri /usr/lib/qt/mkspecs/modules/qt_lib_location_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_network.pri /usr/lib/qt/mkspecs/modules/qt_lib_network_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_opengl.pri /usr/lib/qt/mkspecs/modules/qt_lib_opengl_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_openglextensions.pri /usr/lib/qt/mkspecs/modules/qt_lib_openglextensions_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_packetprotocol_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioning.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioning_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioningquick.pri /usr/lib/qt/mkspecs/modules/qt_lib_positioningquick_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_printsupport.pri /usr/lib/qt/mkspecs/modules/qt_lib_printsupport_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qml.pri /usr/lib/qt/mkspecs/modules/qt_lib_qml_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmldebug_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmldevtools_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlmodels.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlmodels_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmltest.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmltest_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlworkerscript.pri /usr/lib/qt/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quick.pri /usr/lib/qt/mkspecs/modules/qt_lib_quick_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickparticles_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickshapes_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2.pri /usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets.pri /usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_script.pri /usr/lib/qt/mkspecs/modules/qt_lib_script_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_scripttools.pri /usr/lib/qt/mkspecs/modules/qt_lib_scripttools_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_sensors.pri /usr/lib/qt/mkspecs/modules/qt_lib_sensors_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_service_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_sql.pri /usr/lib/qt/mkspecs/modules/qt_lib_sql_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_svg.pri /usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri /usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri /usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri /usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandclient.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandclient_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandcompositor.pri /usr/lib/qt/mkspecs/modules/qt_lib_waylandcompositor_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri /usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkit.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkit_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets.pri /usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_widgets.pri /usr/lib/qt/mkspecs/modules/qt_lib_widgets_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_x11extras.pri /usr/lib/qt/mkspecs/modules/qt_lib_x11extras_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /usr/lib/qt/mkspecs/modules/qt_lib_xml.pri /usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri /usr/lib/qt/mkspecs/features/qt_functions.prf /usr/lib/qt/mkspecs/features/qt_config.prf /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspecs/features/spec_post.prf .qmake.stash /usr/lib/qt/mkspecs/features/exclusive_builds.prf /usr/lib/qt/mkspecs/features/toolchain.prf /usr/lib/qt/mkspecs/features/default_pre.prf /usr/lib/qt/mkspecs/features/resolve_config.prf /usr/lib/qt/mkspecs/features/default_post.prf /usr/lib/qt/mkspecs/features/link_ltcg.prf /usr/lib/qt/mkspecs/features/ltcg.prf /usr/lib/qt/mkspecs/features/warn_on.prf /usr/lib/qt/mkspecs/features/qt.prf /usr/lib/qt/mkspecs/features/resources_functions.prf /usr/lib/qt/mkspecs/features/resources.prf /usr/lib/qt/mkspecs/features/moc.prf /usr/lib/qt/mkspecs/features/unix/opengl.prf /usr/lib/qt/mkspecs/features/uic.prf /usr/lib/qt/mkspecs/features/unix/thread.prf /usr/lib/qt/mkspecs/features/qmake_use.prf /usr/lib/qt/mkspecs/features/file_copies.prf /usr/lib/qt/mkspecs/features/testcase_targets.prf /usr/lib/qt/mkspecs/features/exceptions.prf /usr/lib/qt/mkspecs/features/yacc.prf /usr/lib/qt/mkspecs/features/lex.prf scribe.pro
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-23 14:59:20.5888994
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 342):
+	$(QMAKE) -o Makefile scribe.pro
+
+/usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_widgets_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_printsupport_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 491):
+	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
+	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
+	$(COPY_FILE) --parents /usr/lib/qt/mkspecs/features/data/dummy.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents menus.h FAKEMODAL.H $(DISTDIR)/
+	$(COPY_FILE) --parents BasicNotepad.cpp $(DISTDIR)/
+
+/usr/lib/qt/mkspecs/modules/qt_lib_waylandclient_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:47:15
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+ 
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_scripttools_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:27:58
+#  File has been updated.
+#  Successfully updated.
+
+uninstall: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:38:51
+#  File has been updated.
+#  Successfully updated.
+
+compiler_yacc_impl_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_fb_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+clean: compiler_clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 499):
+	-$(DEL_FILE) $(OBJECTS)
+	-$(DEL_FILE) *~ core *.core
+
+/usr/lib/qt/mkspecs/features/resources.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+menus.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 13:32:29.5933795
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_sql_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_uic_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmlmodels_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_x11extras_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:38:03
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+BasicNotepad.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 14:57:41.8071336
+#  File has been updated.
+#  Successfully updated.
+
+scribe.pro:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 04:18:29.4385823
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_source_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/features/resources_functions.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_predefs_make_all: moc_predefs.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:24:25
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/lex.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_header_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 529):
+	-$(DEL_FILE) moc_FAKEMODAL.cpp
+
+compiler_moc_objc_header_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+compiler_yacc_impl_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/features/unix/thread.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_opengl_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_designer_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:24:25
+#  File has been updated.
+#  Successfully updated.
+
+BasicNotepad.o: BasicNotepad.cpp QImports.h menus.h FAKEMODAL.H
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-06-23 14:01:59.7293423
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := BasicNotepad.o
+# automatic
+# * := 
+# automatic
+# < := BasicNotepad.cpp
+# automatic
+# + := BasicNotepad.cpp QImports.h menus.h FAKEMODAL.H
+# automatic
+# % := 
+# automatic
+# ^ := BasicNotepad.cpp QImports.h menus.h FAKEMODAL.H
+# automatic
+# ? := BasicNotepad.cpp FAKEMODAL.H
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'Makefile', line 555):
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o BasicNotepad.o BasicNotepad.cpp
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmlworkerscript.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/common/unix.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_core.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_script_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:27:58
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_script.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:27:58
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quickshapes_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/common/sanitize.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 10:08:37
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_opengl.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_service_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/qt_config.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_fontdatabase_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_dbus.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_glx_support_private.pri:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_location_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 04:21:23
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/spec_post.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_rcc_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Makefile BasicNotepad
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+/usr/lib/qt/mkspecs/features/exceptions.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/default_post.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_waylandcompositor_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:47:15
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_devicediscovery_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_gui.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:24:25
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_dbus_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+.qmake.stash:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 03:30:09.864592
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_packetprotocol_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_uic_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/features/spec_pre.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmlmodels.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quickparticles_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/file_copies.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_waylandclient.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:47:15
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/unix/opengl.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_core_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qml_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+compiler_rcc_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+moc_FAKEMODAL.o: moc_FAKEMODAL.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 558):
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_FAKEMODAL.o moc_FAKEMODAL.cpp
+
+/usr/lib/qt/mkspecs/features/warn_on.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_waylandcompositor.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:47:15
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quick_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmltest_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_objc_header_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 11:31:30
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_scripttools.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:27:58
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_concurrent_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/common/g++-base.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_openglextensions_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qml.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+install: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/resolve_config.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/exclusive_builds.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/linux-g++/qmake.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_lex_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/common/linux.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_header_make_all: moc_FAKEMODAL.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_positioning.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 04:21:23
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/uic.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:31:50
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/testcase_targets.prf:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_positioningquick_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 04:21:23
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_predefs_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 523):
+	-$(DEL_FILE) moc_predefs.h
+
+BasicNotepad: BasicNotepad.o moc_FAKEMODAL.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-23 14:02:01.5325644
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'Makefile', line 204):
+	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
+
+/usr/lib/qt/mkspecs/modules/qt_lib_x11extras.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:38:03
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_network.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/qconfig.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/lib/qt/mkspecs/features/data/dummy.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_network_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_moc_source_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:38:51
+#  File has been updated.
+#  Successfully updated.
+
+qmake: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 480):
+	@$(QMAKE) -o Makefile scribe.pro
+
+compiler_lex_make_all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_printsupport.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_xml.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+first: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/common/g++-unix.conf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_positioning_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 04:21:23
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_svg.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:31:50
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/moc.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+compiler_yacc_decl_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/features/qmake_use.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmldebug_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_edid_support_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_sensors_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:33:16
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_webkit_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 10:08:37
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_openglextensions.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_sql.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+FAKEMODAL.H:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 14:56:40.1556494
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/features/qt.prf:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 06:35:44
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_sensors.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:33:16
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/bin/moc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/qt/mkspecs/modules/qt_lib_qmlworkerscript_private.pri:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 08:23:53
+#  File has been updated.
+#  Successfully updated.
+
+moc_FAKEMODAL.cpp: FAKEMODAL.H QImports.h moc_predefs.h /usr/bin/moc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 534):
+	/usr/bin/moc $(DEFINES) --include /run/media/geixcowo/Storage/db/os/scribe/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/run/media/geixcowo/Storage/db/os/scribe -I/run/media/geixcowo/Storage/db/os/scribe -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/12.1.0 -I/usr/include/c++/12.1.0/x86_64-pc-linux-gnu -I/usr/include/c++/12.1.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed -I/usr/include FAKEMODAL.H -o moc_FAKEMODAL.cpp
+
+# files hash-table stats:
+# Load=184/1024=18%, Rehash=0, Collisions=83/520=16%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 194 / storage = 7924 B / avg = 40 B
+# current buf: size = 8162 B / used = 7924 B / count = 194 / avg = 40 B
+
+# strcache performance: lookups = 556 / hit rate = 65%
+# hash-table stats:
+# Load=194/8192=2%, Rehash=0, Collisions=5/556=1%
+# Finished Make data base on Thu Jun 23 14:59:20 2022
+
+ 

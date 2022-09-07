@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/run/media/geixcowo/Storage/db/os/scribe'
+/usr/bin/qmake -o Makefile scribe.pro
+ 
+g++ -c -pipe -O2 -flto -fno-fat-lto-objects -Wall -Wextra -D_REENTRANT -fPIC -DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -I. -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I. -I/usr/lib/qt/mkspecs/linux-g++ -o BasicNotepad.o BasicNotepad.cpp
+g++ -pipe -O2 -flto -fno-fat-lto-objects -Wall -Wextra -dM -E -o moc_predefs.h /usr/lib/qt/mkspecs/features/data/dummy.cpp
+/usr/bin/moc -DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --include /run/media/geixcowo/Storage/db/os/scribe/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/run/media/geixcowo/Storage/db/os/scribe -I/run/media/geixcowo/Storage/db/os/scribe -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/12.1.0 -I/usr/include/c++/12.1.0/x86_64-pc-linux-gnu -I/usr/include/c++/12.1.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed -I/usr/include FAKEMODAL.H -o moc_FAKEMODAL.cpp
+g++ -c -pipe -O2 -flto -fno-fat-lto-objects -Wall -Wextra -D_REENTRANT -fPIC -DQT_DISABLE_DEPRECATED_BEFORE=0x060000 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -I. -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I. -I/usr/lib/qt/mkspecs/linux-g++ -o moc_FAKEMODAL.o moc_FAKEMODAL.cpp
+g++ -Wl,-O1 -pipe -O2 -flto=12 -fno-fat-lto-objects -fuse-linker-plugin -fPIC -o BasicNotepad BasicNotepad.o moc_FAKEMODAL.o   /usr/lib/libQt5Widgets.so /usr/lib/libQt5Gui.so /usr/lib/libQt5Core.so -lGL -lpthread   
+make: Leaving directory '/run/media/geixcowo/Storage/db/os/scribe'
+ 
